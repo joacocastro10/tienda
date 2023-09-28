@@ -1,0 +1,84 @@
+[
+    {
+      "id":1,
+      "marca": "Short",
+      "talle": 41,
+      "precio": 38599,
+      "imagen": "./images/boca1.jpg",
+      "cantidad": 1
+    },
+    {
+      "id":2,
+      "marca": "2020",
+      "talle": 40,
+      "precio": 24699,
+      "imagen": "./images/boca2.jpg",
+      "cantidad": 1
+    },
+    {
+      "id":3,
+      "marca": "inflable",
+      "talle": 40,
+      "precio": 88899,
+      "imagen": "./images/boca3.jpg",
+      "cantidad": 1
+    },
+    {
+      "id":4,
+      "marca": "matera",
+      "talle": 43,
+      "precio": 19700,
+      "imagen": "./images/boca4.jpg",
+      "cantidad": 1
+    },
+    {
+      "id":5,
+      "marca": "2022",
+      "talle": 44,
+      "precio": 31900,
+      "imagen": "./images/boca5.jpg",
+      "cantidad": 1
+    },
+    {
+      "id":6,
+      "marca": "suplente",
+      "talle": 45,
+      "precio": 25299,
+      "imagen": "./images/boca6.jpg",
+      "cantidad": 1
+    },
+
+    {
+      "id":7,
+      "marca": "pantalon",
+      "talle": 44,
+      "precio": 38999,
+      "imagen": "./images/boca7.jpg",
+      "cantidad": 1
+    },
+    {
+      "id":8,
+      "marca": "pelota",
+      "talle": 45,
+      "precio": 18300,
+      "imagen": "./images/boca8.jpg",
+      "cantidad": 1
+    },
+
+    {
+      "id":9,
+      "marca": "raqueta",
+      "talle": 44,
+      "precio": 25999,
+      "imagen": "./images/boca9.jpg",
+      "cantidad": 1
+    },
+    {
+      "id":10,
+      "marca": "training",
+      "talle": 45,
+      "precio": 25299,
+      "imagen": "./images/boca10.jpg",
+      "cantidad": 1
+    }
+  ]

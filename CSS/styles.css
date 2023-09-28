@@ -1,0 +1,242 @@
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  color: #140352;
+}
+
+img {
+  max-width: 200px;
+  margin-top: auto;
+  margin-left: 20px;
+}
+
+header {
+  padding: 4%;
+  background-image: url(../images/Banner-Nosotros-Xeneizes1.png);
+  display: flex;
+  justify-content: end;
+  
+}
+/* MAIN */
+
+
+
+#container-product {
+  display: grid;
+ background-color: #161c58;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+ 
+}
+
+.product {
+  border-radius: 20px;
+  margin-top: 25px;
+  background-color: rgb(255, 255, 255);
+  transition: transform 0.7s ease;}
+
+    .product{ &:hover {
+        transform: scale(1.02);
+    box-shadow: 2px 2px 10px 2px rgb(19, 2, 95);
+    filter: saturate(1.7);
+   }
+}
+
+
+
+
+
+.info-product {
+  padding: 15px 30px;
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info-product h2 {
+  font-size: 18px;
+  height: 36px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.precio {
+  font-size: 18px;
+  font-weight: 900;
+}
+.info-product button {
+  border: none;
+  background: none;
+  background-color: #11035f6c;
+  color: #ffffff;
+  padding: 15px 10px;
+  cursor: pointer;
+}
+
+.info-product button{ &:hover {
+  transform: scale(1.02);
+background-color: rgba(0, 2, 2, 0.808);}
+}
+
+.ver-carrito {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  text-align: center;
+  margin-right: 20px;
+  margin-top: 3.5vh;
+  cursor: pointer;
+}
+
+.cantidad-carrito {
+  background-color: red;
+  color: white;
+  border-radius: 100%;
+  font-size: 12px;
+  top: 0px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  display: none;
+}
+.modal-container {
+  width: 25%;
+  max-height: 88vh;
+  color: rgb(255, 246, 246);
+  background-color: rgba(6, 4, 102, 0.822);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-between;
+  position: fixed;
+  overflow: auto;
+  z-index: 1;
+  top: 20%;
+  right:5%;
+  scrollbar-color: none;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 10px 10px;
+}
+
+.modal-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+}
+
+.modal-header h1 {
+  margin-top: 5px;
+  margin-left: 8px;
+}
+
+.modal-header-button {
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 15px;
+  font-size: 35px;
+}
+
+.modal-header-button:hover {
+  color: red;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  padding: 4px;
+}
+
+.eliminar-producto {
+  cursor: pointer;
+}
+
+.total-compra {
+  font-size: 25px;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 5px;
+  text-align: center;
+  background-color: rgba(58, 11, 168, 0.2);
+}
+
+.carrito-vacio-button {
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 90%;
+  font-size: 25px;
+}
+
+.carrito-vacio-button:hover {
+  color: red;
+}
+
+.carrito-vacio-mensaje {
+  text-align: center;
+  margin: 5px;
+  padding: 4px;
+}
+
+footer{
+  margin-top: auto;
+  flex-wrap: wrap;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 2rem 8%;
+  background-color: rgb(4, 1, 27);
+}
+
+.social-icons-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  list-style-type: none;
+  color: rgb(12, 36, 177);
+  font-size: 18px;
+}
+
+.social-icono{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  margin: 1rem 1.5rem;
+  cursor: pointer;
+  opacity: 0.6;
+  color: yellow;
+  
+}
+
+.menu-item{
+  margin: 1rem 1.5rem;
+  cursor: pointer;
+  opacity: 0.6;
+  color: yellow;
+
+}
+.menu-item{
+  opacity: 1;
+  
+}
+
+.copyright{
+  color: aliceblue;
+  opacity: 0.3;
+  text-align: center;
+}
